@@ -8,6 +8,9 @@ This project is a simple family chatbot that uses Google Gemini AI to answer nat
 - Uses the Google Gemini AI API
 - Shopping list management (add, remove, show items)
 - Personalized user experience with name input
+- **NEW: Graphical User Interface (GUI) with Tkinter**
+- **NEW: Real-time shopping list updates**
+- **NEW: Dialog-based item management**
 
 ## Planned Features
 - Multi-user support
@@ -46,9 +49,16 @@ This project is a simple family chatbot that uses Google Gemini AI to answer nat
 
 ## Usage
 
-To start the chatbot:
+### Command Line Interface
+To start the chatbot in command line mode:
 ```bash
 python basic_bot.py
+```
+
+### Graphical User Interface
+To start the chatbot with GUI:
+```bash
+python GUI/chatbot_with_gui.py
 ```
 
 Then, enter your question or command in the terminal. To exit, type: `bye`, `exit`, or `quit`.
@@ -61,9 +71,10 @@ Then, enter your question or command in the terminal. To exit, type: `bye`, `exi
 - Use `back` to return to the main chat
 
 ## Main files
-- `basic_bot.py` – The main program of the chatbot
+- `basic_bot.py` – The main program of the chatbot (CLI version)
 - `functions.py` – Contains functions for shopping list management
 - `requirements.txt` – Lists all required Python packages
+- `GUI/chatbot_with_gui.py` – GUI version of the chatbot with enhanced features
 
 ## Notes
 - The chatbot will only work if the Google API key is provided correctly.
