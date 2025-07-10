@@ -7,6 +7,14 @@ This project is a simple family chatbot that uses Google Gemini AI to answer nat
 - User-friendly, continuous conversation
 - Uses the Google Gemini AI API
 
+## Planned Features
+- Multi-user support
+- Conversation history and context awareness
+- Integration with calendar and reminders
+- Voice input and output
+- Web or mobile interface
+- Customizable personality and response style
+
 ## Prerequisites
 
 1. **Install Python**
@@ -28,7 +36,7 @@ This project is a simple family chatbot that uses Google Gemini AI to answer nat
        ```
    - Install the required packages:
      ```bash
-     pip install google-generativeai
+     pip install -r requirements.txt
      ```
 
 3. **Google API key**
