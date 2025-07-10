@@ -24,7 +24,7 @@ class ChatbotGUI:
             return
         
         # Shopping list file
-        self.shoplist_file = "d:/Programming/Projects/chatbot/shoplist.txt"
+        self.shoplist_file = "d:/Programming/Projects/family_chatbot/shoplist.txt"
         
         self.setup_ui()
         self.load_shopping_list()
